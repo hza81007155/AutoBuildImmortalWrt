@@ -24,6 +24,10 @@ if [ -z "$CUSTOM_PACKAGES" ]; then
   echo "⚪️ 未选择 任何第三方软件包"
 else
   # ============= 同步第三方插件库==============
+  #Linkease
+git clone --depth=1 --single-branch https://github.com/linkease/istore.git
+git clone --depth=1 --single-branch https://github.com/linkease/nas-packages.git
+git clone --depth=1 --single-branch https://github.com/linkease/nas-packages-luci.git  
   # 同步第三方软件仓库run/ipk
   echo "🔄 正在同步第三方软件仓库 Cloning run file repo..."
   git clone --depth=1 https://github.com/wukongdaily/store.git /tmp/store-run-repo
