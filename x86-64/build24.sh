@@ -68,10 +68,6 @@ PACKAGES="$PACKAGES kmod-mii"
 PACKAGES="$PACKAGES kmod-usb-net"
 PACKAGES="$PACKAGES kmod-usb-net-cdc-ether"
 PACKAGES="$PACKAGES kmod-usb-net-rndis"
-#istore
-PACKAGES="$PACKAGES luci-app-linkease"
-PACKAGES="$PACKAGES luci-app-storex"
-PACKAGES="$PACKAGES luci-app-quickstart"
 # 文件管理器
 PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
 # 静态文件服务器dufs(推荐)
